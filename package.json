@@ -17,6 +17,7 @@
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-plugin-typescript": "^2.12.0",
+    "gatsby-plugin-typography": "^2.12.0",
     "gatsby-remark-copy-linked-files": "^2.10.0",
     "gatsby-remark-images": "^3.11.0",
     "gatsby-remark-prismjs": "^3.13.0",
@@ -29,8 +30,10 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-montserrat": "0.0.75",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",

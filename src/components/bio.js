@@ -25,6 +25,9 @@ const Bio = () => {
             name
             summary
           }
+          social {
+            github
+          }
         }
       }
     }
@@ -32,7 +35,7 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-
+  const social = data.site.siteMetadata?.social
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
@@ -54,6 +57,9 @@ const Bio = () => {
           </strong> {author?.summary || null}
           {` `}
           <br></br>
+          <a href={`https://github.com/${social?.github || ``}`}>
+            Github
+          </a>
         </p>
       )}
     </div>

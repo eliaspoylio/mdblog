@@ -3,12 +3,12 @@ module.exports = {
     title: `eliaspoylio`,
     author: {
       name: `Elias Pöyliö`,
-      summary: `Networks | Programming | DevOps`,
+      summary: `Networks | Programming`,
     },
     description: `Notes and tutorials`,
     siteUrl: `https://www.eliaspoylio.tk/`,
     social: {
-      twitter: ``,
+      github: `eliaspoylio`,
     },
   },
   plugins: [
